@@ -1,3 +1,4 @@
+import 'package:conditional_imports/cross_picker.dart';
 import 'package:flutter/material.dart';
 
 class Web extends StatefulWidget {
@@ -11,8 +12,9 @@ class _WebState extends State<Web> {
 
   @override
   void initState() {
-    /// web specific stuff
     super.initState();
+
+    CrossPicker().getImage();
   }
 
   @override

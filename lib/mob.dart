@@ -1,3 +1,4 @@
+import 'package:conditional_imports/cross_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
@@ -14,7 +15,7 @@ class _MobState extends State<Mob> {
   void initState() {
     super.initState();
 
-    WebViewController();
+    CrossPicker().getImage();
   }
 
   @override
